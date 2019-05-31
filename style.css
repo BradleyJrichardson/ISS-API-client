@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400i&display=swap");
 
 * {
-  font-size: 100%;
   font-family: "Nunito", sans-serif;
 }
+
+img {
+  padding: 0;
+}
+
 #issMap {
   height: 400px;
 }

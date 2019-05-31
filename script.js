@@ -3,7 +3,7 @@ function round(value, decimals) {
   return Number(Math.round(value + "e" + decimals) + "e-" + decimals);
 }
 round(1.005, 2);
-
+let firstTime = true;
 // getting ISS data and setting the lat long in the html
 const api_url = "https://api.wheretheiss.at/v1/satellites/25544";
 async function getISS() {
